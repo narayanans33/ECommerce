@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Fabric;
 using System.Linq;
@@ -43,6 +44,28 @@ namespace ECommerce.ProductCatalog
         protected override async Task RunAsync(CancellationToken cancellationToken)
         {
             _repo = new ServiceFabricProductRepository(this.StateManager);
+
+            var prod1 = new Product {
+                Id = Guid.NewGuid(),
+                Name = "Dell Inspiron",
+                Description = "Laptop computer",
+                Price = 700.0,
+                Availability = 100                
+            };
+
+            var prod2 = new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "OnePlus 7",
+                Description = "Mobile Phone",
+                Price = 500.0,
+                Availability = 1000
+            };
+
+            await _repo.AddProduct(prod1);
+            await _repo.AddProduct(prod2);
+
+            IEnumerable<Product> allProducts = await _repo.GetAllProducts();
         }
     }
 }
