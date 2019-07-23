@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ECommerce", "ECommerce\ECommerce.sfproj", "{A43C52A8-991F-4B2C-B9B0-36C2A5A60245}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{D7D1FAC4-FC76-4008-9F7B-4636C2F0CE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{D7D1FAC4-FC76-4008-9F7B-4636C2F0CE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{E0675BA0-BF02-4CCA-9C1B-DD45A0444011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{E0675BA0-BF02-4CCA-9C1B-DD45A0444011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{E0675BA0-BF02-4CCA-9C1B-DD45A0444011}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0675BA0-BF02-4CCA-9C1B-DD45A0444011}.Release|x64.ActiveCfg = Release|Any CPU
 		{E0675BA0-BF02-4CCA-9C1B-DD45A0444011}.Release|x64.Build.0 = Release|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Debug|x64.Build.0 = Debug|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Release|x64.ActiveCfg = Release|Any CPU
+		{A18188E6-3239-4BF2-B7AF-795FFFDA50F6}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
